@@ -1,0 +1,10 @@
+/* ------------------------------ HOME ---------------------------------*/
+/* HEADER*/
+.header.masthead{
+    background-image: url('(../img/img.jpg)');
+   background-color: transparent;
+}
+/* FORM INICIO*/
+.form-inicio {
+    max-width: 350px;
+}
