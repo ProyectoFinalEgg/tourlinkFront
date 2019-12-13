@@ -1,7 +1,8 @@
 /* ------------------------------ HOME ---------------------------------*/
 /* HEADER*/
 .header.masthead{
-    background-image: url('(../img/img.jpg)');
+    /*Cambiar link a ../img/img.jpg*/
+    background-image: url('(img/img.jpg)');
    background-color: transparent;
 }
 /* FORM INICIO*/
