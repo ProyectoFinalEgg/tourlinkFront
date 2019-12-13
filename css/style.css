@@ -2,7 +2,7 @@
 /* HEADER*/
 .header.masthead{
     /*Cambiar link a ../img/img.jpg*/
-    background-image: url('(img/img.jpg)');
+    background: url(../img/img.jpg)!important;
    background-color: transparent;
 }
 /* FORM INICIO*/
