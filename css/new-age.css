@@ -182,7 +182,7 @@ header.masthead .device-container .screen img {
 @media (min-width: 992px) {
   header.masthead {
     height: 100vh;
-    min-height: 775px;
+    /* min-height: 775px; */
     padding-top: 0;
     padding-bottom: 0;
   }
@@ -436,8 +436,8 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
 
 /* NUEVOS */
 body{
-  padding-top: 68px;
-  padding-bottom: 50px;
+  /* padding-top: 68px;
+  padding-bottom: 50px; */
 }
       .image-container {
           position: relative;
@@ -470,3 +470,35 @@ body{
       .image-container:hover .middle {
           opacity: 1;
       }
+      .jumbotron.login{
+        background-color: transparent;
+        min-height: 300px;
+        display: table;
+        height: 100vh;
+        width:100%;
+        padding: 0;
+      }
+      .login .jumbotron_body{
+        display: table-cell;
+        vertical-align: middle;
+      }
+      .body-form {
+        background: rgba(255, 255, 255, .65);
+        padding: 25px;
+      }
+        .form-head {
+          color: black;
+          font-weight: 600;
+          text-align: center;
+          font-size: 2rem;
+      }
+      .label-login {
+          color: black;
+      }
+        input#btn-ingresar {
+          border-radius: 5px;
+          margin: 15px 0 0;
+          position: relative;
+          float: right;
+          padding: 10px 20px;
+        }
